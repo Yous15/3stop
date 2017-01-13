@@ -1,0 +1,86 @@
+body {
+  background-image: url("../imgs/arcade1.jpg");
+  min-height: 100%;
+  background-position:top;
+  background-size: cover;
+}
+/* Positions */
+.w3-image-center {
+  background-position: center;
+  width: 20%;
+  height: 20%;
+}
+
+/* Fonts  */
+.w3-font-1 {
+  font-size: 29px;
+  font-family: 'Bungee Shade', monospace;
+  font-weight: bold;
+}
+
+.w3-font-2 {
+  font-size: 20px;
+  font-family: 'Bungee Shade', monospace;
+  font-weight: bold;
+  text-align: left;
+}
+
+.w3-font-center {
+  margin-top: 10%;
+  text-align: center;
+}
+
+
+
+/* Colors  */
+.w3-neon-yellow {
+color: #FFF533;
+}
+
+.w3-neon-cyan {
+color: #33FFF5;
+}
+
+.w3-neon-pink {
+color: #FE3DFF;
+}
+
+.w3-bg-trans {
+  background-color: transparent;
+  border-color: white;
+  border-width: medium;
+  max-width: 20%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Animations */
+.w3-move {
+animation-duration: 1s;
+ animation-name: moving;
+}
+.w3-move2 {
+animation-duration: 1.5s;
+ animation-name: moving;
+}
+.w3-move3 {
+animation-duration: 1.75s;
+ animation-name: moving;
+}
+
+@keyframes moving {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.w3-animate-opacity{-webkit-animation:opac 0.8s;animation:opac 0.8s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
