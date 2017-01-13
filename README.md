@@ -2,6 +2,6 @@
 
 Rulette game, Trivial like.
 
-future url: https://www.3stop.cat
+future url: http://www.3stop.cat
 
 
