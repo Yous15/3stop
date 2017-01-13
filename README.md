@@ -1,5 +1,7 @@
 # 3stop
 
-Rulette game
+Rulette game, Trivial like.
+
+future url: https://www.3stop.cat
 
 
